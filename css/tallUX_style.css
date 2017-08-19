@@ -119,17 +119,13 @@ a {
 .btn span.icon {
     color: white;
     font-size: 23px;
-    background-color: #00A1B4;
-    -webkit-box-shadow: 0 3px 0 0 #008B9C;
-    box-shadow: 0 3px 0 0 #008B9C;
+    background-color: #1d7367;
 }
 
 .btn span.title {
     font-size: 2rem;
     color: white;
-    -webkit-box-shadow: 0 3px 0 0 #03ADC1;
-    box-shadow: 0 3px 0 0 #03ADC1;
-    background-color: #0cbacf;
+    background-color: #279989;
 }
 
 .btn span.arrow-left,
@@ -168,9 +164,7 @@ a {
 
 .btn.right span.arrow-right {
     left: 0;
-    -webkit-box-shadow: -10px 0 0 0 #0cbacf, -10px 3px 0 0 #03ADC1;
-    box-shadow: -10px 0 0 0 #0cbacf, -10px 3px 0 0 #03ADC1;
-    border-left: 10px solid #0cbacf;
+    border-left: 10px solid #279989;
 }
 
 .btn span.slant-left,
@@ -238,8 +232,12 @@ a.btn-small span.btn {
 }
 
 .header-transparent .header-inner {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(39, 153, 137, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.9); */
     /* border-bottom: 1px solid rgba(255,255,255, 0.2); */
+}
+.header-transparent .navigation > ul > li > a.scroll-link:hover{
+    color: #f3dd6d;
 }
 
 .header-background .header-inner {
@@ -362,8 +360,12 @@ p {
 
 .tabs.style-2.vertical .tab-nav>li.active,
 .tabs.style-2.vertical .tab-nav>li.active a:hover {
-    background: rgba(18, 186, 207, .3);
+    /* background: rgba(18, 186, 207, .3); */
+    background: rgba(39, 153, 137, .3);
     border-radius: 2px 0 0 2px;
+}
+.color-theme{
+    color: #279989;
 }
 
 
@@ -384,8 +386,8 @@ p {
 
 .product-title {
     white-space: nowrap;
+    color: #279989;
 }
-
 
 /*照片原型*/
 
@@ -464,3 +466,4 @@ p {
     text-decoration: underline;
     line-height: 1.5em;
 }
+
