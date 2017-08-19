@@ -25,7 +25,7 @@
     "agenda-menu-item2": "10/21 Day2 {{whiteapce}} | {{whiteapce}} Conference",
     "agenda-menu-item3": "10/22 Day3 {{whiteapce}} | {{whiteapce}} Workshop",
     "agenda-preparty-name": "Pre-Party",
-    "agenda-preparty-desc": "At our pre-party event you will get the opportunity to meet UXers from diverse industries around the world. We highly encourage you to converse with them about design skills and work experiences, you never know if someone you talk to could be a design mentor, future business partner or clients!",
+    "agenda-preparty-desc": "Meet UXers from around the world who work in a diverse array of industries. Chat about your experience, design trends, and research methods and connect with future mentors, business partners, and clients!",
     "agenda-checkin-name": "Check-in",
     "agenda-checkin-desc": "Registration",
     "agenda-type-keynote": "Keynote",
@@ -38,6 +38,7 @@
     "agenda-type-end-keynote": "Closing",
     "agenda-type-speaker": "Speaker",
 
+    "agenda-keynote-LizzieDyson-desc":"Why do we still need Women in Tech Groups",
     "agenda-keynote-AmyChong-neam": "Amy Chong / Uber",
     "agenda-keynote-AmyChong-desc": "My Uber Journey",
     "agenda-keynote-YienLiu-name": "Yien Liu / Google X ",
@@ -171,6 +172,7 @@
     "sponsor-contactus": "If you want to sponsor us, please contact us",
     "sponsor-download": "Download Sponsorship Pack",
     "loaction-title": "Location",
+    "partner-title": "Partners",
 
     "loaction-name": "Talk UX | Syntrend Creative Park （三創生活園區) {{whiteapce}}",
     "loaction-addr1": "12F., No.2, Sec. 3, Civic Blvd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)",

@@ -23,7 +23,7 @@
     "agenda-menu-item2": "10/21 第二天 {{whiteapce}} | {{whiteapce}} 論壇",
     "agenda-menu-item3": "10/22 第三天 {{whiteapce}} | {{whiteapce}} 工作坊",
     "agenda-preparty-name": "派對",
-    "agenda-preparty-desc": "在我們的會前派對活動中，您將有機會會見來自世界各地不同行業的使用者體驗設計界中的佼佼者。 我們非常鼓勵您與他們多交流，聊聊相關的設計技巧和工作經驗。或許，與您談話的人會成為您的設計導師，未來的工作上的夥伴或客戶！",
+    "agenda-preparty-desc": "在我們的派對活動中，您將有機會會見來自世界各地不同行業的使用者體驗設計界中的佼佼者。 我們非常鼓勵您與他們多交流，聊聊相關的設計技巧和工作經驗。或許，與您談話的人會成為您的設計導師，未來的工作上的夥伴或客戶！",
     "agenda-checkin-name": "報到",
     "agenda-checkin-desc": "登記",
     "agenda-type-keynote": "主題演說",
@@ -35,6 +35,7 @@
     "agenda-type-end-keynote": "結尾演說",
     "agenda-type-speaker": "演講者",
 
+    "agenda-keynote-LizzieDyson-desc":"為什麼我們需要女性科技團體",
     "agenda-keynote-AmyChong-neam": "Amy Chong / Uber",
     "agenda-keynote-AmyChong-desc": "我的 Uber 之旅",
     "agenda-keynote-YienLiu-name": "Yien Liu / Google X ",
@@ -169,6 +170,7 @@
     "sponsor-contactus": "歡迎贊助商聯絡我們",
     "sponsor-download": "下載贊助包",
     "loaction-title": "地點",
+    "partner-title": "合作夥伴",
 
     "loaction-name": "Talk UX | 三創生活園區 {{whiteapce}}",
     "loaction-addr1": "100 台北市中正區市民大道三段 2 號 12 樓",
