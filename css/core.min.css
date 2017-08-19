@@ -6895,10 +6895,15 @@ a, button, input, textarea {
   }
   .table:not(.non-responsive)>thead, .table:not(.non-responsive)>thead>tr {
     display: block;
-    float: left
+    float: left;
+    width: 100px;
+
   }
   .table:not(.non-responsive)>thead>tr>th {
-    display: block
+    display: block;
+    height: 67px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
   }
   .table:not(.non-responsive)>tbody {
     display: block;
@@ -6912,7 +6917,8 @@ a, button, input, textarea {
     margin-right: -.4rem
   }
   .table:not(.non-responsive)>tbody>tr>td {
-    display: block
+    display: block;
+    height: 67px;
   }
   .table:not(.non-responsive) tr>td:last-child {
     border-bottom: none

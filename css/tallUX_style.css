@@ -421,6 +421,7 @@ p {
 
 .sponsor-logo {
     flex-basis: 200px;
+    margin:10px 0;
 }
 
 .main-sponsor-logo{
@@ -441,9 +442,6 @@ p {
 @media screen and (max-width: 680px) {
     .sponsor-container {
         justify-content: center;
-    }
-    .sponsor-logo {
-        margin:10px 0;
     }
 }
 
