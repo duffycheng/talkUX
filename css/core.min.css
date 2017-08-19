@@ -1911,7 +1911,7 @@ input[type=checkbox] {
   border-radius: 10.5rem
 }
 
-@media only screen and (min-width:768px) {
+/* @media only screen and (min-width:768px) { */
   .merged-form-elements .column:first-child {
     padding-right: 0
   }
@@ -1933,8 +1933,23 @@ input[type=checkbox] {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0
   }
-}
+/* } */
 
+@media only screen and (max-width:768px) {
+  .footer .footer-top{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  } 
+  .signup-form-container .width-8{
+      width: 66.666666667%;
+  }
+
+  .signup-form-container .width-4{
+    width: 33.33333333333%;
+  }
+}
 .form-element.small {
   padding: 1rem 1.5rem;
   font-size: 1.1rem
@@ -9905,6 +9920,11 @@ body.boxed .header .header-inner {
   bottom: -3rem
 }
 
+.signup-form-info{
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
 .signup-form-container {
   position: relative;
   margin-bottom: 3rem
@@ -12149,7 +12169,8 @@ body.boxed .footer .footer-bottom, body.boxed .footer .footer-top {
 }
 
 .post {
-  margin-bottom: 7rem
+  margin-bottom: 7rem;
+  padding: 0 10px;
 }
 
 .post:last-child {
@@ -12396,7 +12417,7 @@ body.boxed .blog-masonry.full-width [class*=content-grid] {
 
 .blog-masonry h2.post-title, .blog-regular h2.post-title, .blog-single-post h2.post-title, .blog-wide h2.post-title {
   margin-top: 0;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .blog-masonry.small-margins>.row>.column {

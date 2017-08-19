@@ -462,4 +462,5 @@ p {
 
 .blog-custom .post-title {
     text-decoration: underline;
+    line-height: 1.5em;
 }
