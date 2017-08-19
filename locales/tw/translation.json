@@ -141,7 +141,25 @@
     "speaker-persons-p14-occupation": "FACEBOOK / 產品設計師",
     "speaker-persons-p14-desc": "Engly 是一個位於灣區的產品設計師，她目前在替臉書執行一項讓全世界更靠近的任務，對拆解複雜的系統、讓人們的日常生活工作變得更容易都充滿了熱情。Engly 在台灣出生和長大，在紐約和舊金山的機構、創業公司和科技公司建立了自己的事業。",
 
+    "speaker-persons-p15-name": "洪小玲",
+    "speaker-persons-p15-occupation": "鉅亨網 / 總經理",
+    "speaker-persons-p15-desc": "",
 
+    "speaker-persons-p16-name": "謝京蓓",
+    "speaker-persons-p16-occupation": "喜杰思互動科技 / 總經理",
+    "speaker-persons-p16-desc": "",
+
+    "speaker-persons-p17-name": "EVA HUANG",
+    "speaker-persons-p17-occupation": "UX 顧問",
+    "speaker-persons-p17-desc": "",
+
+    "speaker-persons-p18-name": "周守珍",
+    "speaker-persons-p18-occupation": "痞客邦 / 執行長",
+    "speaker-persons-p18-desc": "",
+
+    "speaker-persons-p19-name": "JENNY SHEN",
+    "speaker-persons-p19-occupation": "LTUX AMSTERDAM / CO-FOUNDER",
+    "speaker-persons-p19-desc": "",
 
     "speaker-more": "演講者陸續增加中",
 
@@ -186,7 +204,7 @@
     "footer-title": "LET’S TALK UX ! JOIN THE CONFERENCE",
     "footer-notification-title": "Get Notified",
     "footer-notification-desc": "Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.",
-    "footer-notification-btn": "Stay Up To Date",
+    "footer-notification-btn": "訂閱",
     "footer-mobile-title": "{{copy}}Ladies that UX",
     "footer-mobile-back-top": "| Back Top"
 }
