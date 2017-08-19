@@ -420,17 +420,32 @@ p {
 }
 
 .sponsor-logo {
+    flex-basis: 200px;
+}
+
+.main-sponsor-logo{
     max-width: 320px;
-    padding: 40px;
-    vertical-align: center;
+    margin-bottom: 20px;
 }
 
 .sponsor-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: 10px 0;
+}
+.main-sponsor-container{
     justify-content: left;
 }
-
+@media screen and (max-width: 680px) {
+    .sponsor-container {
+        justify-content: center;
+    }
+    .sponsor-logo {
+        margin:10px 0;
+    }
+}
 
 /* @media screen and (min-width: 0px) and (max-width: 680px) {
     .mobileTicketTable  th {

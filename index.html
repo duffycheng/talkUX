@@ -17,12 +17,12 @@
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
     <!-- Css -->
-    <link rel="stylesheet" href="css/core.min.css" />
+    <link rel="stylesheet" href="css/core.min.css?update=20170819" />
     <link rel="stylesheet" href="css/skin-architecture.css" />
     <link rel="stylesheet" href="css/skin-design-agency-one-page.css" />
     <link rel="stylesheet" href="css/skin.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
-    <link rel="stylesheet" href="css/tallUX_style.css" />
+    <link rel="stylesheet" href="css/tallUX_style.css?update=20170819" />
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -38,8 +38,10 @@
             namespace: 'translation',
             ele: document.body,
             backend: {
-                loadPath: '/talkUX/locales/{{lng}}/translation.json'
-                    //loadPath: '/locales/{{lng}}/translation.json'
+                //loadPath on the host
+                //loadPath: '/talkUX/locales/{{lng}}/translation.json'
+                //loadPath on local server
+                loadPath: '/locales/{{lng}}/translation.json'
 
             },
             whitelist: ['en', 'tw'],
@@ -1258,7 +1260,7 @@
                                                 <th class="product-name"> price-1022-pre-party</th>
                                                 <th class="product-name">price-1021-confernce</th>
                                                 <th class="product-name">price-10211022-mixed
-                                                    <th class="product-name">price-types-sale-preriod</th>
+                                                <th class="product-name">price-types-sale-preriod</th>
                                             </tr>
                                             </tr>
                                         </thead>
@@ -1278,7 +1280,7 @@
                                                     <span class="amount">-</span>
                                                 </td>
                                                 <td class="product-name">
-                                                    <span class="amount">2017/05/15~2017/10/20</span>
+                                                    <span class="amount">2017/05/15 ~ 2017/10/20</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart-item">
@@ -1297,7 +1299,7 @@
                                                     <span class="amount" i18next-options='{"price": "265"}'>price-usd</span>
                                                 </td>
                                                 <td class="product-name">
-                                                    <span class="amount">2017/05/15~2017/07/31</span>
+                                                    <span class="amount">2017/05/15 ~ 2017/07/31</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart-item">
@@ -1316,7 +1318,7 @@
                                                     <span class="amount" i18next-options='{"price": "200"}'>price-usd</span>
                                                 </td>
                                                 <td class="product-name">
-                                                    <span class="amount">2017/05/15~2017/10/20</span>
+                                                    <span class="amount">2017/05/15 ~ 2017/10/20</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart-item">
@@ -1335,7 +1337,7 @@
                                                     <span class="amount" i18next-options='{"price": "945"}'>price-usd</span>
                                                 </td>
                                                 <td class="product-name">
-                                                    <span class="amount">2017/06/01~2017/10/20</span>
+                                                    <span class="amount">2017/06/01 ~ 2017/10/20</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart-item">
@@ -1354,7 +1356,7 @@
                                                     <span class="amount" i18next-options='{"price": "360"}'>price-usd</span>
                                                 </td>
                                                 <td class="product-name">
-                                                    <span class="amount">2017/08/01~2017/09/30</span>
+                                                    <span class="amount">2017/08/01 ~ 2017/09/30</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart-item">
@@ -1373,7 +1375,7 @@
                                                     <span class="amount" i18next-options='{"price": "465"}'>price-usd</span>
                                                 </td>
                                                 <td class="product-name">
-                                                    <span class="amount">2017/10/01~2017/10/20</span>
+                                                    <span class="amount">2017/10/01 ~ 2017/10/20</span>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1387,7 +1389,7 @@
                                                 <th class="product-name"> 10/21
                                                     <br>Conference</th>
                                                 <th class="product-name">10/21~22
-                                                    <br/>Conference+Workshop
+                                                    <br/>Conference + Workshop
                                                 <th class="product-name">Sale Period</th>
                                             </tr>
                                             </tr>
@@ -1521,8 +1523,8 @@
                         <h2 class="mb-50 weight-bold">sponsor-title</h2>
                     </div>
                     <div class="column width-10 offset-1 no-padding mt-30 center">
-                        <div class="row sponsor-container">
-                            <div class="grid-item horizon sponsor-logo" data-animate-in="preset:slideInUpShort;duration:1000ms;" data-threshold="0.3">
+                        <div class="row sponsor-container main-sponsor-container">
+                            <div class="grid-item horizon main-sponsor-logo" data-animate-in="preset:slideInUpShort;duration:1000ms;" data-threshold="0.3">
                                 <div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
                                     <a href="http://www.taiwantechmakers.com/" target="_blank"> <img src="images/talkUX_image/紫牛logo橫式_JPEG.jpg" alt="" /></a>
                                 </div>
@@ -1767,7 +1769,7 @@
                                 <div class="column width-6 offset-1 ">
                                     <div class="widget ">
                                         <h4 class="widget-title ">footer-notification-title</h4>
-                                        <p>footer-notification-desc</p>
+                                        <p class="signup-form-info">footer-notification-desc</p>
                                         <div class="signup-form-container ">
                                             <!--email-->
                                             <form class="form-inline signup merged-form-elements" role="form" id="subscribe" method="post">
