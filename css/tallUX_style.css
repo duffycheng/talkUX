@@ -433,10 +433,11 @@ p {
 
 .sponsor-container {
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
     justify-content: space-around;
     flex-wrap:wrap;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 .main-sponsor-container{
     justify-content: left;
@@ -444,6 +445,9 @@ p {
 @media screen and (max-width: 680px) {
     .sponsor-container {
         justify-content: center;
+    }
+    .sponsor-logo.height-60{
+        height:60px;
     }
 }
 
