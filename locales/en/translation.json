@@ -2,9 +2,9 @@
     "menu-news": "news",
     "menu-about": "about",
     "menu-agenda": "agenda",
-    "menu-speaker": "speaker",
-    "menu-price": "price",
-    "menu-sponsor": "sponsor",
+    "menu-speaker": "speakers",
+    "menu-price": "tickets",
+    "menu-sponsor": "sponsors",
     "menu-location": "location",
     "banner-title": "TALK UX 2017: TAIPEI",
     "banner-silder1": "First time to Asia!",
@@ -168,7 +168,7 @@
 
     "speaker-more": "More Speakers coming soon!",
 
-    "price-title": "Price",
+    "price-title": "Tickets",
     "price-types-ticket": "Ticket",
     "price-types-pre-party": "Pre-Party Ticket",
     "price-1022-pre-party": "10/22 Pre-Party",
