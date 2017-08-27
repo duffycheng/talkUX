@@ -449,6 +449,12 @@ p {
     .sponsor-logo.height-60{
         height:60px;
     }
+    .main-sponsor-container a, .sponsor-container a{
+        margin: 0;
+    }
+    .sketch svg{
+        width: 250px;
+    }
 }
 
 /* @media screen and (min-width: 0px) and (max-width: 680px) {
