@@ -429,6 +429,7 @@ p {
 .main-sponsor-logo{
     max-width: 320px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .sponsor-container {
@@ -454,6 +455,9 @@ p {
     }
     .sketch svg{
         width: 250px;
+    }
+    .main-sponsor-logo{
+        margin-right: 0;
     }
 }
 
